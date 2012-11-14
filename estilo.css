@@ -1,0 +1,270 @@
+#outer
+{
+margin-left:100px;
+margin-right:100px;
+margin-top:50px;
+background:#DB1111 repeat-x;
+border:2px solid #87030E;
+text-align: justify;
+}
+
+#modificadorestilo
+{
+margin-left:40em;
+margin-top:-1em;
+background:#DDB174;
+font-family:cursive;
+}
+
+#estilo
+{
+list-style-type:circle;
+}
+
+#header
+{
+position: relative;
+width: 100%;
+height: 9.0em;
+background: #831305;
+}
+
+#headercontent
+{
+position: absolute;
+padding: 0em 0em 0em 3em;
+}
+
+#headercontent h1
+{
+font-family:fantasy;
+font-weight: normal;
+color: #000000;
+font-size: 2.5em;
+}
+
+#headercontent h1 sup
+{
+font-size:0.5em;
+color: #808281;
+}
+
+#headercontent h2
+{
+font-family:cursive;
+font-size: 1.0em;
+font-weight: normal;
+color: #000000;
+display:inline;
+}
+
+#headerpic
+{
+position: relative;
+height: 109px;
+background: #fff url('images/med.jpg') no-repeat top left;
+margin-bottom: 5px;
+}
+
+#menu
+{
+padding: 0em 0em 0em 0em;
+float:left;
+margin-left:-35px;
+}
+
+#menu li
+{
+list-style-type:none;
+}
+
+#menu ul li a {
+color:#333333;
+display:block;
+font-size:1em;
+font-weight:600;
+height:20px;
+padding:10px;
+width:125px;
+font-family:cursive;
+}
+
+#menu ul li a:hover 
+{
+background:#87030E;
+color:#eee;
+text-decoration:none;
+}
+
+
+#content
+{
+padding: 0em 1.5em 1em 1.5em;
+margin-left:150px;
+background:#FFFFFF url('images/fondo.jpg') repeat;
+}
+
+#primarycontainer
+{
+float:right;
+}
+
+#primarycontent
+{
+position:relative;
+float:right;
+margin-left:18em;
+}
+
+#secondarycontent
+{
+position:relative;
+margin-right:22em;
+}
+
+#footer {
+width:771px;
+border-top:2px solid #87030E;
+font-size:65%;
+line-height:20px;
+padding:10px;
+text-align:center;
+font-family:cursive;
+background:#F51128 url('images/jaspe.jpg') repeat;	
+}
+
+body{
+background:#000000 url('images/piedras.jpg') repeat;
+}
+
+img
+{
+border: solid 2.5px #87030E;
+}
+
+img.left
+{
+position: relative;
+float: left;
+margin: 0em 1em 1em 0em;
+}
+
+img.right
+{
+position: relative;
+float: right;
+margin: 0em 0em 1em 1em;
+}
+
+p
+{
+line-height: 1.5em;
+margin-bottom: 1.0em;
+}
+
+h4,h3
+{
+color:#3F0104;
+}
+
+.post .details
+{
+position: relative;
+top: -1.5em;
+font-size: 0.8em;
+color: #87030E;
+}
+
+.divider1
+{
+border:1px solid #87030E;
+margin: 0em 0em 0em 0em;
+}
+
+.bloque
+{
+line-height:0.2;
+}
+
+.bloque1
+{
+line-height:1;
+}
+
+#scrollContainer 
+{
+width:600px;
+height:1024px; 
+overflow:auto;
+}
+
+#scrollbox 
+{
+padding:45em 0em 0em 0em; 
+margin:0; 
+width:1720px; 
+list-style:none; 
+height:92px;
+}
+
+#scrollbox ul 
+{
+padding:0; 
+margin:0; 
+list-style:none; 
+position:absolute; 
+left:-999px; 
+top:-999px;
+}
+
+#scrollbox li 
+{
+float:left; 
+width:86px; 
+height:92px; 
+background:url('images/35mm.gif');
+}
+
+
+#scrollbox a 
+{
+display:block; 
+color:#999; 
+text-decoration:none; 
+width:86px; 
+height:92px; 
+float:left;
+}
+
+#scrollbox a.slideb {background:url(filmstrip/pic_10ht.jpg) no-repeat center center;}
+#scrollbox a.slidec {background:url(filmstrip/pic_12vt.jpg) no-repeat center center;}
+#scrollbox a.slided {background:url(filmstrip/pic_15vt.jpg) no-repeat center center;}
+#scrollbox a.slidee {background:url(filmstrip/pic_16vt.jpg) no-repeat center center;}
+#scrollbox a.slidef {background:url(filmstrip/pic_20vt.jpg) no-repeat center center;}
+#scrollbox a.slideg {background:url(filmstrip/pic_21vt.jpg) no-repeat center center;}
+#scrollbox a.slideh {background:url(filmstrip/pic_22vt.jpg) no-repeat center center;}
+#scrollbox a.slidei {background:url(filmstrip/pic_23ht.jpg) no-repeat center center;}
+#scrollbox a.slidej {background:url(filmstrip/pic_23vt.jpg) no-repeat center center;}
+#scrollbox a.slidek {background:url(filmstrip/pic_26vt.jpg) no-repeat center center;}
+#scrollbox a.slidel {background:url(filmstrip/pic_28ht.jpg) no-repeat center center;}
+#scrollbox a.slidem {background:url(filmstrip/pic_30ht.jpg) no-repeat center center;}
+#scrollbox a.sliden {background:url(filmstrip/pic_38ht.jpg) no-repeat center center;}
+#scrollbox a.slideo {background:url(filmstrip/pic_38vt.jpg) no-repeat center center;}
+#scrollbox a.slidep {background:url(filmstrip/pic_39ht.jpg) no-repeat center center;}
+#scrollbox a.slideq {background:url(filmstrip/pic_40ht.jpg) no-repeat center center;}
+#scrollbox a.slider {background:url(filmstrip/pic_48vt.jpg) no-repeat center center;}
+#scrollbox a.slides {background:url(filmstrip/pic_49vt.jpg) no-repeat center center;}
+#scrollbox a.slidet {background:url(filmstrip/pic_49vt.jpg) no-repeat center center;}
+
+#scrollbox a img.thumb {width:80px; height:60px; display:block; padding:16px 3px; border:0;}
+
+#scrollbox a:hover {border:0;}
+#scrollbox a:hover img.thumb {display:none;}
+#scrollbox :hover > a img.thumb {display:none;}
+
+
+#scrollbox :hover ul {width:640px; height:640px; left:17em; top:28em; padding-bottom:10px; z-index:100;}
+#scrollbox :hover ul li {width:50px; height:50px; display:block; background:#fff url('images/fondo.jpg') repeat;}
+#scrollbox :hover ul li a {display:block; width:640px; height:640px;}
+#scrollbox :hover ul li a img {display:block; border:0; margin:0 auto;}
+#scrollbox :hover ul li.landscape a img {display:block; padding-top:80px;}
